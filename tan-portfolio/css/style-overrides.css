@@ -1,0 +1,100 @@
+/* Common overrides for Bootstrap and theme styles */
+
+body {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Header overrides */
+.portfolio-header {
+    color: #222;
+    background: #FFFFFF;
+}
+
+.portfolio-header img {
+	border: 5px solid #222;
+}
+
+.portfolio-header hr.star-primary {
+    border-color: #222;
+}
+
+.portfolio-header hr.star-primary:after {
+	color: #222;
+}
+
+/* Blog section overrides */
+section.blog {
+    background: #222;
+}
+
+section.blog hr.star-light:after {
+    background-color: #222;
+}
+
+.btn-outline {
+	background: #FFF;
+	color: #222;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #FFF;
+    color: #FFF;
+    background: #222;
+}
+
+/* Portfolio section */
+#portfolio {
+	color: #222;
+}
+
+#portfolio hr.star-primary {
+    border-color: #222;
+}
+
+#portfolio hr.star-primary:after {
+	color: #222;
+    background-color: #fff;
+}
+
+.portfolio-item a {
+	color: #222;
+}
+
+.portfolio-item a:hover,
+.portfolio-item a:focus,
+.portfolio-item a:active,
+.portfolio-item a.active {
+    color: #9d9d9d;
+}
+
+#portfolio .filters li.active {
+	border-color: #222;
+	background-color: #222;
+	color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(32,32,32,.9);
+}
+
+/* Portfolio modals */
+.portfolio-modal .modal-content p {
+    font-size: 16px;
+}
+
+.portfolio .entry-content strong,
+.portfolio-modal .modal-content .item-details strong{
+	color: #222;
+}
+
+/* Footer overrides */
+footer .footer-above {
+    background-color: #222;
+}
+
+footer hr.star-light:after {
+    background-color: #222;
+}
