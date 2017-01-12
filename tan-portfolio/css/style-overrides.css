@@ -50,11 +50,13 @@ section.blog hr.star-light:after {
 	color: #222;
 }
 
-#portfolio hr.star-primary {
+#portfolio hr.star-primary,
+.portfolio-modal hr.star-primary {
     border-color: #222;
 }
 
-#portfolio hr.star-primary:after {
+#portfolio hr.star-primary:after,
+.portfolio-modal hr.star-primary:after {
 	color: #222;
     background-color: #fff;
 }
